@@ -5,7 +5,7 @@
 s = int(input('Введите сумму чисел: '))
 p = int(input('Введите произведение чисел: '))
 
-for i in range(1, s):
+for i in range(1, s//2 + 1):
     y = s - i
     if y * i == p:
         break
